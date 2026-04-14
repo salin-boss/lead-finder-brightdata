@@ -1,0 +1,206 @@
+# Swedish Local Business Niches for Lead Finding
+# One search term per line. These are free-text queries that get matched
+# against business names, categories, and descriptions in Google Maps.
+#
+# Organized by likelihood of NOT having a website (highest first).
+# Lines starting with # are comments and ignored by the script.
+#
+# TIER 1 — Trades & Solo Operators (highest hit rate)
+# Small shops, one-person operations, family businesses.
+# These are the bread and butter.
+
+# Construction & Home
+rörmokare
+elektriker
+snickare
+målare
+plattsättare
+golvläggare
+tapetserare
+takläggare
+murare
+kakelugnsreparatör
+glasmästare
+markarbeten
+trädgårdsarbete
+trädgårdsskötsel
+trädgårdsanläggning
+häckklippning
+gräsklippning
+trädfällning
+stubbfräsning
+poolservice
+altanbyggare
+staket bygga
+fasadtvätt
+hustvätt
+sotare
+ventilationsrengöring
+skorstensfejare
+
+# Automotive
+bilverkstad
+bilmekaniker
+bildemontering
+bilvård
+billackering
+bilglas
+bilbärgning
+bilrekond
+däckverkstad
+mc verkstad
+mopedverkstad
+småmotorservice
+
+# Cleaning & Maintenance
+städfirma
+hemstäd
+kontorsstäd
+fönsterputs
+mattvätt
+industrirengöring
+sanering
+golvslipning
+golvvård
+
+# Moving & Transport
+flyttfirma
+budtjänst
+transporttjänst
+bud och transport
+
+# Locksmith & Security
+låssmed
+larmteknik
+säkerhetsdörrar
+
+# TIER 2 — Service & Craft Businesses (medium hit rate)
+# Slightly more likely to have websites, but still worth searching.
+
+# Beauty & Wellness
+frisör
+barberare
+nagelsalong
+skönhetssalong
+hudvård
+fotvård
+hårborttagning
+ögonfransar
+permanent makeup
+massage
+spa
+akupunktur
+kiropraktor
+naprapat
+zonterapi
+
+# Food & Drink
+pizzeria
+kebab
+thai restaurang
+sushi restaurang
+krog
+gatukök
+glasskiosk
+bageri
+konditori
+café
+catering
+foodtruck
+korvkiosk
+falafel
+
+# Photography & Creative
+fotograf
+videograf
+bröllopsfotograf
+porträttfotograf
+tryckeri
+skyltmakare
+grafisk design
+broderi
+sömmerska
+skräddare
+
+# Pets
+hundtrimmare
+hunddagis
+katthotell
+djurpensionat
+hästhov
+hovslagare
+
+# Education & Coaching
+körkort
+trafikskola
+dansskola
+musikskola
+ridskola
+simskola
+privatlärare
+
+# Events
+festlokal
+bröllopslokal
+DJ
+underhållning
+eventfirma
+tältuthyrning
+
+# TIER 3 — Niche Services (lower hit rate but less competition)
+
+# Death & Memorials
+begravningsbyrå
+gravsten
+minnesmärke
+
+# Health Services (non-chain)
+logoped
+psykolog
+samtalsterapi
+dietist
+
+# Agricultural & Rural
+lantbruk
+skogsarbete
+vedförsäljning
+hästtransport
+sadelreparation
+
+# Marine
+båtverkstad
+båtförvaring
+marinservice
+segelmakare
+båtbottentvätt
+
+# Textile & Home
+möbeltapetserare
+möbelrenovering
+mattlagning
+gardinmakare
+skomakare
+lädersömnad
+
+# Tech & Repair
+datorreparation
+mobilreparation
+vitvaruservice
+symaskinservice
+pianosstämmare
+instrumentreparation
+
+# Miscellaneous
+fastighetsskötsel
+vaktmästeri
+snöröjning
+sandning
+avfallshantering
+container uthyrning
+maskinuthyrning
+byggnadsställning
+spolbil
+avloppsspolning
+brunnsrensning
+grävarbeten
+minigrävare uthyrning
