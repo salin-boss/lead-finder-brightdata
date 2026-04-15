@@ -120,9 +120,9 @@ def search_brightdata(api_key: str, query: str) -> list[dict]:
             "website": r.get("link", ""),
             "display_link": r.get("display_link", ""),
             "rating": r.get("rating", ""),
-            "reviews": r.get("reviews", 0),
+            "reviews": r.get("reviews_cnt", r.get("reviews", 0)),
             "category": "",
-            "maps_url": r.get("place_id_link", ""),
+            "maps_url": r.get("map_link", r.get("place_id_link", "")),
         }
 
         cats = r.get("category", [])
@@ -267,13 +267,13 @@ def main():
         writer = csv.writer(f)
         writer.writerow([
             "Name", "Address", "Phone", "Rating", "Reviews",
-            "Category", "Search Query", "Verified",
+            "Google Maps", "Category", "Search Query", "Verified",
         ])
         for biz in sorted_leads:
             writer.writerow([
                 biz["name"], biz["address"], biz["phone"],
-                biz["rating"], biz["reviews"], biz["category"],
-                biz["query"], "firecrawl_verified",
+                biz["rating"], biz["reviews"], biz.get("maps_url", ""),
+                biz["category"], biz["query"], "firecrawl_verified",
             ])
 
     log(f"\nSaved {len(sorted_leads)} leads to: {args.output}")
